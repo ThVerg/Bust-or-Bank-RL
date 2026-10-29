@@ -1,0 +1,17 @@
+[project]
+name = "bust-or-bank-rl"
+version = "0.1.0"
+description = "Bust or Bank: a push-your-luck card game, self-play RL bots for it and a web app to play them"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+    "torch>=2.2",
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.29",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "playwright>=1.40"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,288 @@
+{
+ "seeds": 200,
+ "lineup": "smart",
+ "checkpoints": {
+  "models/flip7_rl.pt": {
+   "sha256": "bcc48c45be3e19087566bc15fb3d3ae29eef624fe50bab4b84b3618f284b67b0",
+   "bytes": 4022027
+  },
+  "models/rl_rookie.pt": {
+   "sha256": "06f4f17a2743165b767f12f5d076094a1e88e109de002fe2ea175c56de74652b",
+   "bytes": 1062741
+  }
+ },
+ "rows": [
+  {
+   "condition": "Brutal, to 200",
+   "pair": "Shark vs Rookie",
+   "lineup": "smart",
+   "n": 2,
+   "seeds": 200,
+   "games": 400,
+   "candidate": 0.605,
+   "incumbent": 0.51125,
+   "diff": 0.09375,
+   "ci95": 0.06256552093244121,
+   "candidate_ms": 1.071849796386558,
+   "rules": {
+    "brutal": true,
+    "target": 200
+   }
+  },
+  {
+   "condition": "Brutal, to 200",
+   "pair": "Shark vs Rookie",
+   "lineup": "smart",
+   "n": 4,
+   "seeds": 200,
+   "games": 800,
+   "candidate": 0.3375,
+   "incumbent": 0.21875,
+   "diff": 0.11875,
+   "ci95": 0.04152815461380557,
+   "candidate_ms": 1.4011746644602603,
+   "rules": {
+    "brutal": true,
+    "target": 200
+   }
+  },
+  {
+   "condition": "Brutal, to 200",
+   "pair": "Boss vs Shark",
+   "lineup": "smart",
+   "n": 2,
+   "seeds": 200,
+   "games": 400,
+   "candidate": 0.64875,
+   "incumbent": 0.605,
+   "diff": 0.04375,
+   "ci95": 0.05637782795500925,
+   "candidate_ms": 5.665204884616146,
+   "rules": {
+    "brutal": true,
+    "target": 200
+   }
+  },
+  {
+   "condition": "Brutal, to 200",
+   "pair": "Boss vs Shark",
+   "lineup": "smart",
+   "n": 4,
+   "seeds": 200,
+   "games": 800,
+   "candidate": 0.4175,
+   "incumbent": 0.3375,
+   "diff": 0.08,
+   "ci95": 0.044006881028873734,
+   "candidate_ms": 7.004789084462235,
+   "rules": {
+    "brutal": true,
+    "target": 200
+   }
+  },
+  {
+   "condition": "Standard, to 200",
+   "pair": "Shark vs Rookie",
+   "lineup": "smart",
+   "n": 2,
+   "seeds": 200,
+   "games": 400,
+   "candidate": 0.64,
+   "incumbent": 0.4875,
+   "diff": 0.1525,
+   "ci95": 0.0628879433364252,
+   "candidate_ms": 1.9599056489937319,
+   "rules": {
+    "brutal": false,
+    "target": 200
+   }
+  },
+  {
+   "condition": "Standard, to 200",
+   "pair": "Shark vs Rookie",
+   "lineup": "smart",
+   "n": 4,
+   "seeds": 200,
+   "games": 800,
+   "candidate": 0.328125,
+   "incumbent": 0.24625,
+   "diff": 0.081875,
+   "ci95": 0.04273971117628382,
+   "candidate_ms": 1.8532657483534067,
+   "rules": {
+    "brutal": false,
+    "target": 200
+   }
+  },
+  {
+   "condition": "Standard, to 200",
+   "pair": "Boss vs Shark",
+   "lineup": "smart",
+   "n": 2,
+   "seeds": 200,
+   "games": 400,
+   "candidate": 0.5975,
+   "incumbent": 0.64,
+   "diff": -0.0425,
+   "ci95": 0.055804851556889135,
+   "candidate_ms": 10.388384578773545,
+   "rules": {
+    "brutal": false,
+    "target": 200
+   }
+  },
+  {
+   "condition": "Standard, to 200",
+   "pair": "Boss vs Shark",
+   "lineup": "smart",
+   "n": 4,
+   "seeds": 200,
+   "games": 800,
+   "candidate": 0.37625,
+   "incumbent": 0.328125,
+   "diff": 0.048125,
+   "ci95": 0.04554408209575338,
+   "candidate_ms": 11.768952759239786,
+   "rules": {
+    "brutal": false,
+    "target": 200
+   }
+  },
+  {
+   "condition": "Brutal, to 100",
+   "pair": "Shark vs Rookie",
+   "lineup": "smart",
+   "n": 2,
+   "seeds": 200,
+   "games": 400,
+   "candidate": 0.59125,
+   "incumbent": 0.49625,
+   "diff": 0.095,
+   "ci95": 0.05228307950006436,
+   "candidate_ms": 1.814669045240049,
+   "rules": {
+    "brutal": true,
+    "target": 100
+   }
+  },
+  {
+   "condition": "Brutal, to 100",
+   "pair": "Shark vs Rookie",
+   "lineup": "smart",
+   "n": 4,
+   "seeds": 200,
+   "games": 800,
+   "candidate": 0.323125,
+   "incumbent": 0.224375,
+   "diff": 0.09875,
+   "ci95": 0.038034228005837056,
+   "candidate_ms": 1.7861532122376313,
+   "rules": {
+    "brutal": true,
+    "target": 100
+   }
+  },
+  {
+   "condition": "Brutal, to 100",
+   "pair": "Boss vs Shark",
+   "lineup": "smart",
+   "n": 2,
+   "seeds": 200,
+   "games": 400,
+   "candidate": 0.6325,
+   "incumbent": 0.59125,
+   "diff": 0.04125,
+   "ci95": 0.05310933907501508,
+   "candidate_ms": 8.598186821141704,
+   "rules": {
+    "brutal": true,
+    "target": 100
+   }
+  },
+  {
+   "condition": "Brutal, to 100",
+   "pair": "Boss vs Shark",
+   "lineup": "smart",
+   "n": 4,
+   "seeds": 200,
+   "games": 800,
+   "candidate": 0.361875,
+   "incumbent": 0.323125,
+   "diff": 0.03875,
+   "ci95": 0.041912783186903266,
+   "candidate_ms": 10.147679671441498,
+   "rules": {
+    "brutal": true,
+    "target": 100
+   }
+  },
+  {
+   "condition": "Brutal, to 300",
+   "pair": "Shark vs Rookie",
+   "lineup": "smart",
+   "n": 2,
+   "seeds": 200,
+   "games": 400,
+   "candidate": 0.55125,
+   "incumbent": 0.5175,
+   "diff": 0.03375,
+   "ci95": 0.06633214268562664,
+   "candidate_ms": 1.4889193629070512,
+   "rules": {
+    "brutal": true,
+    "target": 300
+   }
+  },
+  {
+   "condition": "Brutal, to 300",
+   "pair": "Shark vs Rookie",
+   "lineup": "smart",
+   "n": 4,
+   "seeds": 200,
+   "games": 800,
+   "candidate": 0.3125,
+   "incumbent": 0.21875,
+   "diff": 0.09375,
+   "ci95": 0.03870869090083365,
+   "candidate_ms": 2.11842660680165,
+   "rules": {
+    "brutal": true,
+    "target": 300
+   }
+  },
+  {
+   "condition": "Brutal, to 300",
+   "pair": "Boss vs Shark",
+   "lineup": "smart",
+   "n": 2,
+   "seeds": 200,
+   "games": 400,
+   "candidate": 0.5875,
+   "incumbent": 0.55125,
+   "diff": 0.03625,
+   "ci95": 0.06863143124160646,
+   "candidate_ms": 9.142696425630467,
+   "rules": {
+    "brutal": true,
+    "target": 300
+   }
+  },
+  {
+   "condition": "Brutal, to 300",
+   "pair": "Boss vs Shark",
+   "lineup": "smart",
+   "n": 4,
+   "seeds": 200,
+   "games": 800,
+   "candidate": 0.366875,
+   "incumbent": 0.3125,
+   "diff": 0.054375,
+   "ci95": 0.04419625000435258,
+   "candidate_ms": 9.778046486733796,
+   "rules": {
+    "brutal": true,
+    "target": 300
+   }
+  }
+ ]
+}
